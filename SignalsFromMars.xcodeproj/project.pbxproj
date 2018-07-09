@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44AAF7E920EBFCBF0091E268 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AAF7E920EBFCBF0091E268 /* SignalsFromMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalsFromMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AAF7EC20EBFCBF0091E268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AAF7EE20EBFCBF0091E268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44AAF7F120EBFCBF0091E268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		44AAF7E020EBFCBF0091E268 = {
 			isa = PBXGroup;
 			children = (
-				44AAF7EB20EBFCBF0091E268 /* FunFacts */,
+				44AAF7EB20EBFCBF0091E268 /* SignalsFromMars */,
 				44AAF7EA20EBFCBF0091E268 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		44AAF7EA20EBFCBF0091E268 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44AAF7E920EBFCBF0091E268 /* FunFacts.app */,
+				44AAF7E920EBFCBF0091E268 /* SignalsFromMars.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44AAF7EB20EBFCBF0091E268 /* FunFacts */ = {
+		44AAF7EB20EBFCBF0091E268 /* SignalsFromMars */ = {
 			isa = PBXGroup;
 			children = (
 				44AAF7EC20EBFCBF0091E268 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				44AAF7F520EBFCC10091E268 /* LaunchScreen.storyboard */,
 				44AAF7F820EBFCC10091E268 /* Info.plist */,
 			);
-			path = FunFacts;
+			path = SignalsFromMars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44AAF7E820EBFCBF0091E268 /* FunFacts */ = {
+		44AAF7E820EBFCBF0091E268 /* SignalsFromMars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44AAF7FB20EBFCC10091E268 /* Build configuration list for PBXNativeTarget "FunFacts" */;
+			buildConfigurationList = 44AAF7FB20EBFCC10091E268 /* Build configuration list for PBXNativeTarget "SignalsFromMars" */;
 			buildPhases = (
 				44AAF7E520EBFCBF0091E268 /* Sources */,
 				44AAF7E620EBFCBF0091E268 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = FunFacts;
+			name = SignalsFromMars;
 			productName = FunFacts;
-			productReference = 44AAF7E920EBFCBF0091E268 /* FunFacts.app */;
+			productReference = 44AAF7E920EBFCBF0091E268 /* SignalsFromMars.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44AAF7E420EBFCBF0091E268 /* Build configuration list for PBXProject "FunFacts" */;
+			buildConfigurationList = 44AAF7E420EBFCBF0091E268 /* Build configuration list for PBXProject "SignalsFromMars" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44AAF7E820EBFCBF0091E268 /* FunFacts */,
+				44AAF7E820EBFCBF0091E268 /* SignalsFromMars */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TCLJ9BR86;
-				INFOPLIST_FILE = FunFacts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SignalsFromMars/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = plus.itech.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = plus.itech.SignalsFromMars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +304,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TCLJ9BR86;
-				INFOPLIST_FILE = FunFacts/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SignalsFromMars/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = plus.itech.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = plus.itech.SignalsFromMars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44AAF7E420EBFCBF0091E268 /* Build configuration list for PBXProject "FunFacts" */ = {
+		44AAF7E420EBFCBF0091E268 /* Build configuration list for PBXProject "SignalsFromMars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44AAF7F920EBFCC10091E268 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44AAF7FB20EBFCC10091E268 /* Build configuration list for PBXNativeTarget "FunFacts" */ = {
+		44AAF7FB20EBFCC10091E268 /* Build configuration list for PBXNativeTarget "SignalsFromMars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44AAF7FC20EBFCC10091E268 /* Debug */,
